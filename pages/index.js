@@ -21,8 +21,12 @@ export default function Home({allPostsData}) {
             </Head>
             <section className={utilStyles.headingMd}>
                 <p>Hello this is my personal introduction!</p>
-                <Link href="/posts/first-post">
+                <Link href="/posts/ssg-ssr">
                     <a className={utilStyles.colorInherit}>First post</a>
+                </Link>
+                <br/>
+                <Link href="/posts/pre-rendering">
+                    <a className={utilStyles.colorInherit}>Second post</a>
                 </Link>
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
